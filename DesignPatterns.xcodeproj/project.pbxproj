@@ -16,6 +16,10 @@
 		47E8491A2B62D78500394495 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849192B62D78500394495 /* DesignPatternsTests.swift */; };
 		47E849242B62D78500394495 /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849232B62D78500394495 /* DesignPatternsUITests.swift */; };
 		47E849262B62D78500394495 /* DesignPatternsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849252B62D78500394495 /* DesignPatternsUITestsLaunchTests.swift */; };
+		47E849362B62DB3400394495 /* AbstractFactory(Products).swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849352B62DB3400394495 /* AbstractFactory(Products).swift */; };
+		47E849382B62DD1100394495 /* AbstractFactory(Factories).swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849372B62DD1100394495 /* AbstractFactory(Factories).swift */; };
+		47E8493A2B62DE5100394495 /* AbstractFactory(Client).swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E849392B62DE5100394495 /* AbstractFactory(Client).swift */; };
+		47E8493C2B62DF8C00394495 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8493B2B62DF8C00394495 /* AbstractFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		47E8491F2B62D78500394495 /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E849232B62D78500394495 /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		47E849252B62D78500394495 /* DesignPatternsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47E849352B62DB3400394495 /* AbstractFactory(Products).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractFactory(Products).swift"; sourceTree = "<group>"; };
+		47E849372B62DD1100394495 /* AbstractFactory(Factories).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractFactory(Factories).swift"; sourceTree = "<group>"; };
+		47E849392B62DE5100394495 /* AbstractFactory(Client).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractFactory(Client).swift"; sourceTree = "<group>"; };
+		47E8493B2B62DF8C00394495 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		47E849012B62D78300394495 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				47E849322B62DB0600394495 /* Abstract Factory */,
 				47E849022B62D78300394495 /* AppDelegate.swift */,
 				47E849042B62D78300394495 /* SceneDelegate.swift */,
 				47E849062B62D78300394495 /* ViewController.swift */,
@@ -125,6 +134,17 @@
 				47E849252B62D78500394495 /* DesignPatternsUITestsLaunchTests.swift */,
 			);
 			path = DesignPatternsUITests;
+			sourceTree = "<group>";
+		};
+		47E849322B62DB0600394495 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				47E849352B62DB3400394495 /* AbstractFactory(Products).swift */,
+				47E849372B62DD1100394495 /* AbstractFactory(Factories).swift */,
+				47E849392B62DE5100394495 /* AbstractFactory(Client).swift */,
+				47E8493B2B62DF8C00394495 /* AbstractFactory.swift */,
+			);
+			path = "Abstract Factory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E849382B62DD1100394495 /* AbstractFactory(Factories).swift in Sources */,
+				47E849362B62DB3400394495 /* AbstractFactory(Products).swift in Sources */,
 				47E849072B62D78300394495 /* ViewController.swift in Sources */,
 				47E849032B62D78300394495 /* AppDelegate.swift in Sources */,
+				47E8493A2B62DE5100394495 /* AbstractFactory(Client).swift in Sources */,
 				47E849052B62D78300394495 /* SceneDelegate.swift in Sources */,
+				47E8493C2B62DF8C00394495 /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
