@@ -14,17 +14,17 @@ class AbstractFactory {
     let visaCardFactory = VisaCardFactory()
 
     func showMaster() {
-        let client = Client(factory: masterCardFactory)
+        let client = Client(factories: masterCardFactory)
         print(client.createCard())
     }
     
     func showMaestro() {
-        let client = Client(factory: maestroCardFactory)
+        let client = Client(factories: maestroCardFactory)
         print(client.createCard())
     }
     
     func showVisa() {
-        let client = Client(factory: visaCardFactory)
+        let client = Client(factories: visaCardFactory)
         print(client.creatorCompany())
     }
 }

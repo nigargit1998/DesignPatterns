@@ -9,18 +9,18 @@ import Foundation
 
 class Client {
     
-    var factory: Factory
+    var factories: Factories
     
-    init(factory: Factory) {
-        self.factory = factory
+    init(factories: Factories) {
+        self.factories = factories
     }
     
     func createCard() -> Card {
-        self.factory.createCard()
+        self.factories.createCard()
     }
     
     func creatorCompany() -> CardCompany {
-        self.factory.creatorCompany()
+        self.factories.creatorCompany()
     }
     
 }

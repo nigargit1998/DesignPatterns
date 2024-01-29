@@ -7,12 +7,12 @@
 
 import Foundation
 
-protocol Factory {
+protocol Factories {
     func createCard() -> Card
     func creatorCompany() -> CardCompany
 }
 
-class MasterCardFactory: Factory {
+class MasterCardFactory: Factories {
     func createCard() -> Card {
         MasterCard()
     }
@@ -22,7 +22,7 @@ class MasterCardFactory: Factory {
     }
 }
 
-class MaestroCardFactory: Factory {
+class MaestroCardFactory: Factories {
     func createCard() -> Card {
         MaestroCard()
     }
@@ -32,7 +32,7 @@ class MaestroCardFactory: Factory {
     }
 }
 
-class VisaCardFactory: Factory {
+class VisaCardFactory: Factories {
     func createCard() -> Card {
         VisaCard()
     }
